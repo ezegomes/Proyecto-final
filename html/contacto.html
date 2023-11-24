@@ -10,6 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -51,10 +52,15 @@
             </nav>
         </div>
     </header>
+
+    <div class="img-fluid tamImagen">
+        <h2 data-aos="fade-down">Contáctanos.</h2>
+    </div>
+
     <section class="contacto">
         <form>
             <div>
-                <h2 class="tituloForm">Contactanos</h2>
+                <h2 class="tituloForm">Contacto</h2>
                 <input class="campoTexto" type="text" placeholder="Nombre">
                 <input class="campoTexto" type="text" placeholder="Apellido">
                 <input class="campoTexto" type="email" placeholder="Correo electronico">
@@ -70,29 +76,30 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+
     <footer>
 
         <div class="estiloFooter">
             <div>
-                <h2>Información</h2>
+                <h3>Información</h3>
                 <a href="#">Inicio</a>
                 <a href="#">Contacto</a>
                 <a href="#">Sobre nosotros</a>
             </div>
 
             <div>
-                <h2>Contacto</h2>
+                <h3>Contacto</h3>
                 <p href="#">Tenispasion@hotmail.com</p>
                 <p href="#">+54 221 123 231</p>
             </div>
 
             <div>
-                <h2>Nuestra sucursal</h2>
+                <h3>Nuestra sucursal</h3>
                 <p href="#">Calle Sarmiento 912</p>
             </div>
 
             <div>
-                <h2>Ayuda</h2>
+                <h3>Ayuda</h3>
                 <a href="#">Politica de privacidad</a>
                 <a href="#">Politica de devoluciones</a>
                 <a href="#">Terminos y condiciones</a>
@@ -100,7 +107,7 @@
         </div>
 
         <div class="derechos">
-            <p>Copyright©2022Informatica Studios. All right reserved</p>
+            <p>Copyright©2022. Todos los derechos reservados</p>
         </div>
 
     </footer>
@@ -108,6 +115,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
